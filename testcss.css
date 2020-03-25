@@ -1,0 +1,76 @@
+@font-face {
+	font-family: Apple Garamond;
+	src: url('fonts/apple_garamond/AppleGaramond.ttf') format("truetype");
+	
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Apple Garamond Bold;
+	src: url('fonts/apple_garamond/AppleGaramond-Bold.ttf') format("truetype");
+	
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Apple Garamond Light;
+	src: url('fonts/apple_garamond/AAppleGaramond-Light.ttf') format("truetype");
+	
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+font-family: Apple Garamond;
+
+}
+
+a { text-decoration: none; }
+
+div.index_text {
+ font-size: 260%;
+
+}
+
+
+/**
+#menu {
+    float: left;
+    margin-top: 20px;
+    font-family: Apple Garamond;
+}
+
+#content {
+    position: absolute;
+    top: 50px;
+    right: 800px;
+}
+
+
+p#content {
+    position: fixed;
+    top: 50px;
+    right: 800px;
+}
+
+**/
+
+/** Credit to: http://alistapart.com/article/css-floats-101 **/
+
+#container {
+	width: 1024px;
+	margin: 0 auto;
+}
+#content {
+	float: right;
+	width: 660px;
+	background: #ffffff;
+	font-family: Apple Garamond;	
+}
+#menu {
+	float: left;
+	width: 167px;
+	background: #ffffff;
+	font-family: Apple Garamond;
+}
